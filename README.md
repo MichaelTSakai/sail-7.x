@@ -12,10 +12,18 @@ the original sail Dockerfile for PHP 7.4.
 ## Installation
 
 Use the package manager [composer](https://getcomposer.org/) to install package.
+Then add the following to your composer.json
+"repositories":[
+	{
+		"type":"vcs",
+		"url":"https://github.com/MichaelTSakai/sail-7.x"
+	}
+	],
+  "require":{
+    "ajuchacko/sail-7.x": "dev-master"
+  }
 
-```bash
-composer require michaeltsakai/sail-7.x
-```
+
 ## Usage
 
 ```php
