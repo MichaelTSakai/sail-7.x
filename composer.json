@@ -1,19 +1,19 @@
 {
-    "name": "michaeltsakai/sail-7.x",
-    "description": "Docker files for running a basic Laravel 7 application, configured to use MySQL 8 and PHP 7.4",
+    "name": "ajuchacko/sail-7.x",
+    "description": "Docker files for running a basic Laravel 7 application.",
     "keywords": ["laravel", "docker"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/MichaelTSakai/sail-7.x/issues",
-        "source": "https://github.com/MichaelTSakai/sail-7.x"
+        "issues": "https://github.com/ajuchacko91/sail/issues",
+        "source": "https://github.com/ajuchacko91/sail"
     },
     "authors": [
         {
-            "name": "Michael T Sakai"
+            "name": "Aju chacko"
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.2",
         "illuminate/contracts": "^7.0",
         "illuminate/support": "^7.0"
     },
@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Michael\\Sail\\": "src/"
+            "Ajuchacko\\Sail\\": "src/"
         }
     },
     "extra": {
@@ -31,7 +31,7 @@
         },
         "laravel": {
             "providers": [
-                "Michael\\Sail\\SailServiceProvider"
+                "Ajuchacko\\Sail\\SailServiceProvider"
             ]
         }
     },
