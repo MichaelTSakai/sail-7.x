@@ -1,5 +1,5 @@
 {
-    "name": "MichaelTSakai/sail-7.x",
+    "name": "michaeltsakai/sail-7.x",
     "description": "Docker files for running a basic Laravel 7 application, configured to use MySQL 8 and PHP 7.4",
     "keywords": ["laravel", "docker"],
     "license": "MIT",
